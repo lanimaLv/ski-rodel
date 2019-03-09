@@ -66,7 +66,7 @@ nav ul li a:hover {
   overflow: hidden !important;
 }
 
-#about {
+#über {
   color: #333333;
   padding-top: 6em !important;
   padding-bottom: 6em !important;
@@ -75,19 +75,13 @@ nav ul li a:hover {
   -webkit-transform: skewY(2deg); /* Safari 3-8 */
   transform: skewY(2deg);
 }
-#about .container {
+#über .container {
   -ms-transform: skewY(-2deg); /* IE 9 */
   -webkit-transform: skewY(-2deg); /* Safari 3-8 */
   transform: skewY(-2deg);
 }
 .subtext {
   font-weight: 600;
-}
-#abou .video {
-  margin-top: 0;
-  max-width: 100%;
-  max-height: 50%;
-  position: relative;
 }
 .features {
   overflow: hidden !important;
