@@ -137,16 +137,10 @@ nav ul li a:hover {
   color: #e64549;
   font-weight: 700;
 }
-.cta {
-  margin-top: 2em;
-  padding-bottom: 3em;
-  border-bottom: 2px solid gray;
+.enjoy ul {
+  display: flex;
+  justify-content: center;
 }
-.cta a {
-  text-decoration: none;
-  color: #e64549;
-}
-.cta a:hover {
-  color: white;
-  text-decoration: none;
+.enjoy ul li {
+  margin-right: 1em;
 }
