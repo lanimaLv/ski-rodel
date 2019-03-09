@@ -128,6 +128,7 @@ nav ul li a:hover {
 .enjoy {
   max-width: 100% !important;
   margin-top: 4em;
+  padding-bottom: 2.5em;
   overflow: hidden;
 }
 .enjoy p {
