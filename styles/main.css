@@ -142,5 +142,9 @@ nav ul li a:hover {
   justify-content: center;
 }
 .enjoy ul li {
-  margin-right: 1em;
+  margin-right: 3em;
+}
+#form {
+  margin-top: 2em;
+  display: none;
 }
