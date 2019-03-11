@@ -53,16 +53,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">ABOUT</a>
+              <a class="nav-link scroll" href="#" id="button">ABOUT</a>
+            </li>
+            <li class="nav-item" id="button2">
+              <a class="nav-link scroll" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item" id="button3">
+              <a class="nav-link scroll" href="#">CONTACT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">FEATURES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">CONTACT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="order.html">PRICES & ORDERS</a>
+              <a class="nav-link scroll" href="order.html">PRICES & ORDERS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
@@ -99,7 +99,7 @@
             <br />
             <ul class="list-inline d-flex justify-content-center">
               <li>
-                <button type="button" class="btn btn-danger">
+                <button type="button" class="btn btn-danger" id="button1">
                   <a href="#contact">Contact Us</a>
                 </button>
               </li>
@@ -333,7 +333,7 @@
         </div>
         <div class="col-md-12 text-center" id="contact">
           <ul>
-            <li>
+            <li class="que">
               <button
                 type="button"
                 class="btn btn-danger btn-lg"
@@ -466,8 +466,38 @@
     <!--// Footer -->
 
     <!-- Js -->
+    <script type="module">
+      import jump from "./node_modules/jump.js/dist/jump.module.js";
 
-    <!-------->
+      var button = document.getElementById("button");
+      var button1 = document.getElementById("button1");
+      var button2 = document.getElementById("button2");
+      var button3 = document.getElementById("button3");
+
+      button.addEventListener("click", () => {
+        jump(".py-5", {
+          a11y: true
+        });
+      });
+
+      button1.addEventListener("click", () => {
+        jump(".que", {
+          a11y: true
+        });
+      });
+
+      button2.addEventListener("click", () => {
+        jump(".features", {
+          a11y: true
+        });
+      });
+
+      button3.addEventListener("click", () => {
+        jump(".que", {
+          a11y: true
+        });
+      });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
