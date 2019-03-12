@@ -59,6 +59,13 @@ nav ul li a:hover {
   text-decoration: none;
   color: white;
 }
+@media only screen and (max-width: 600px) {
+  #video {
+    margin-top: 0;
+    padding-top: 0 !important;
+    height: 20em;
+  }
+}
 
 .py-5 {
   width: 100% !important;
