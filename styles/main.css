@@ -85,6 +85,9 @@ nav ul li a:hover {
 }
 
 .features {
+  margin-top: 1.5em;
+  vertical-align: center;
+  text-align: center;
   overflow: hidden !important;
   width: 100% !important;
 }
@@ -97,11 +100,15 @@ nav ul li a:hover {
   color: #e64549;
   font-size: 2.5em;
 }
+@media only screen and (max-width: 600px) {
+  .use {
+    padding-top: 2em !important;
+  }
+}
 .use {
   color: #333333 !important;
-  padding-top: 5em !important;
-  padding-bottom: 5em !important;
-  background-color: #f0f8ff;
+  padding-top: 10em !important;
+  padding-bottom: 10em !important;
   margin-top: 1em;
   -ms-transform: skewY(-2deg); /* IE 9 */
   -webkit-transform: skewY(-2deg); /* Safari 3-8 */
