@@ -158,6 +158,11 @@ nav ul li a:hover {
   margin-top: 2em;
   display: none;
 }
+@media only screen and (max-width: 600px) {
+  .off-title {
+    font-size: 1.5em;
+  }
+}
 .offer {
   font-weight: 700;
   line-height: 0.6em;
@@ -170,13 +175,20 @@ nav ul li a:hover {
   font-size: 1.5em;
   color: red;
 }
+
+#timer-text {
+  font-weight: 900;
+  font-size: 2.5em;
+}
+@media only screen and (max-width: 600px) {
+  #timer-text {
+    font-weight: 900;
+    font-size: 1.8em;
+  }
+}
 #month {
   text-transform: uppercase;
   padding: 10px;
   text-align: center;
   max-width: 6em;
-}
-#time {
-  font-weight: 900;
-  font-size: 2.5em;
 }
