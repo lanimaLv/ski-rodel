@@ -216,17 +216,3 @@ nav ul li a:hover {
 }
 
 /* ---- */
-#recipeCarousel {
-  display: none;
-}
-@media only screen and (max-width: 600px) {
-  #recipeCarousel {
-    display: block;
-  }
-  #lg-f-img {
-    display: none;
-  }
-  #recipeCarousel .img-box-item {
-    margin: 0 100px 0 100px 0 !important;
-  }
-}
