@@ -229,9 +229,17 @@ nav ul li a:hover {
 }
 @media only screen and (max-width: 600px) {
   #feature-desktop {
+    margin-top: 0 !important;
     display: none;
   }
   #feature-mobile {
     display: block;
+  }
+  .carousel-caption {
+    opacity: 0.6;
+    background-color: #f8f9fa;
+    color: black !important;
+    font-weight: 900;
+    font-size: 1em;
   }
 }
