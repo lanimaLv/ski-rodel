@@ -216,16 +216,3 @@ nav ul li a:hover {
 }
 
 /* ---- */
-#f-mobile {
-  display: none;
-}
-@media only screen and (max-width: 600px) {
-  #f-mobile {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: block;
-  }
-  #f-desktop {
-    display: none;
-  }
-}
