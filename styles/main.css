@@ -216,30 +216,16 @@ nav ul li a:hover {
 }
 
 /* ---- */
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-.scrolling-wrapper .card {
-  display: inline-block;
-}
-#feature-mobile {
+#f-mobile {
   display: none;
 }
 @media only screen and (max-width: 600px) {
-  #feature-desktop {
-    margin-top: 0 !important;
-    display: none;
-  }
-  #feature-mobile {
+  #f-mobile {
+    margin: 0 !important;
+    padding: 0 !important;
     display: block;
   }
-  .carousel-caption {
-    opacity: 0.6;
-    background-color: #f8f9fa;
-    color: black !important;
-    font-weight: 900;
-    font-size: 1em;
+  #f-desktop {
+    display: none;
   }
 }
