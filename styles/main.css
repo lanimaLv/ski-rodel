@@ -3,7 +3,15 @@
   font-family: Title;
   src: url(../fonts/Coustard-Regular.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
 
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 body {
   font-family: Title;
   max-width: 100%;
