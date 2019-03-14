@@ -216,3 +216,28 @@ nav ul li a:hover {
 }
 
 /* ---- */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  background-color: #f0f8ff;
+  opacity: 0.6;
+  padding: 3px;
+}
+.carousel-caption p {
+  color: black;
+  opacity: 10 !important;
+  font-weight: 700;
+}
+#demo {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  #demo {
+    display: block;
+  }
+  #f-desktop {
+    display: none;
+  }
+}
