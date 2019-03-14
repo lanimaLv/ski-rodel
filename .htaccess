@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP:Accept-Language} (de) [NC]
-RewriteRule .* https://www.ski-rodel.com/lang/de/de.html [L]
